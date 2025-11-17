@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Import the specific function 'add' from the module 'add_0'
+
 from add_0 import add
 if __name__ == "__main__":
     a = 1
