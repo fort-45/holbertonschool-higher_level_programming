@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-import add_0
+# Import the specific function 'add' from the module 'add_0'
+from add_0 import add
+
+
 a = 1
 b = 2
-sum = add_0.add(a, b)
 
-print(str(f"{a} + {b} = {sum}"))
+
+print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
