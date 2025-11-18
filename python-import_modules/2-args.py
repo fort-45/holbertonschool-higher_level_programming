@@ -6,7 +6,7 @@ if __name__ == "__main__":
         print("0 arguments.")
     elif length == 2:
         print("1 argument:")
-        print(f"1: {sys.argv[1]}"i)
+        print(f"1: {sys.argv[1]}")
     else:
         print(f"{length - 1} arguments:")
         c = 1
