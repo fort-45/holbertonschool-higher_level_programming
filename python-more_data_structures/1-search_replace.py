@@ -2,10 +2,10 @@
 
 
 def search_replace(my_list, search, replace):
-    for char in my_list:
+    for num in my_list:
         new_list = []
-        if char == search:
+        if num == search:
             new_list.append(replace)
         else:
-            new_list.append(char)
-    return my_list       
+            new_list.append(num)
+    return new_list       
