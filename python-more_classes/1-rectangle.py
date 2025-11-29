@@ -8,10 +8,13 @@ class Rectangle:
     '''
     whooooo houuuu
     '''
-    def __init__(self, width, height):
+    def __init__(self, width=0, height=0):
         '''
         Initializes a new Rectangle instance
         '''
+        self.width = 0
+        self.height = 0
+
         self.width = width
         self.height = height
 
