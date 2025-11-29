@@ -8,7 +8,7 @@ class Rectangle:
     '''
     whooooo houuuu
     '''
-    def __init__(self, width=0, height=0):
+    def __init__(self, width, height):
         '''
         Initializes a new Rectangle instance
         '''
@@ -36,10 +36,17 @@ class Rectangle:
     @property
     def height(self):
         '''
-        sets the private instance attribute __height
+        salam salam
+        '''
+        return self.__height
+
+    @width.setter
+    def height(self, value):
+        '''
+        setter fir width
         '''
         if not isinstance(value, int):
-            raise TypeError("height must be an integer")
+            raise TypeError("width must be an integer")
         if value < 0:
-            raise ValueError("height must be >= 0")
-        self.__height = value
+            raise ValueError("width must be >= 0")
+        self.__height = height
