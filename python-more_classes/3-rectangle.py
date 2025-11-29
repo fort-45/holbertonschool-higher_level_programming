@@ -64,5 +64,5 @@ class Rectangle:
             return ""
         rect = ""
         for _ in range (self.height):
-            rect += "#" * self.wifth + "\n"
+            rect += "#" * self.width + "\n"
         return rect.rtrip()    
