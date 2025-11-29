@@ -12,9 +12,6 @@ class Rectangle:
         '''
         Initializes a new Rectangle instance
         '''
-        self.width = 0
-        self.height = 0
-
         self.width = width
         self.height = height
 
@@ -43,7 +40,7 @@ class Rectangle:
         '''
         return self.__height
 
-    @width.setter
+    @height.setter
     def height(self, value):
         '''
         setter fir width
@@ -52,4 +49,4 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        self.__height = height
+        self.__height = value
